@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest-cov = "*"
+pytest = "*"
+pytest-randomly = "*"
+autopep8 = "*"
+flake8 = "*"
+ipython = "*"
+jupyter = "*"
+jupyterlab = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+jupyterthemes = "*"
+
+[packages]
+regex = "*"
+jsonlines = "*"
+scipy = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+bokeh = "*"
+holoviews = "*"
+scikit-learn = "*"
+gensim = "*"
+mecab-python3 = "*"
+
+[requires]
+python_version = "3.7"
