@@ -5,6 +5,7 @@ misc/*
 models/*
 private/*
 reports/*
+results/*
 tmp/*
 !*.gitkeep
 #reference.md
