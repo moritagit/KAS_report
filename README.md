@@ -5,6 +5,5 @@
 
 主な実行は`notebooks/notebook.ipynb`で行っており，`src`以下にいくつかクラス等を定義したPythonファイルがある。
 
-`data/processed/livedoor_new_corpus`以下に，元々のテキストデータをjsonlinesとして保存し直し，train / dev / testに分けたデータを置く。
+`data/processed/livedoor_new_corpus.jsonl`という，元々のテキストデータをjsonlinesとして保存し直したデータを用意する。
 テキストデータが`text`キーで，数値化されたラベルが`label`でアクセスできるようにする。
-
